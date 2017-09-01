@@ -29,7 +29,9 @@ footer::after {
 	display: block;
 	clear: both;
 }
-
+#about_section{
+	transition: all 0.8s ease;
+}
 #portfolio_section{
 	transition: all 0.8s ease;
 }
