@@ -407,3 +407,8 @@ footer {
 	text-align: left;
 	padding: 5em 0;
 }
+
+li a {
+	text-decoration: none;
+	color: white;
+}
