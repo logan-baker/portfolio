@@ -91,6 +91,9 @@ h1 {
 	text-shadow: 2px 2px 2px black;
 }
 
+h1.title.title-cta{
+text-shadow: none;
+}
 p {
 	margin-top: 0;
 	line-height: 1.5;
@@ -228,6 +231,9 @@ nav a:focus {
 @media (min-width:60rem) {
 	.logo {
 		float: left;
+		color: black;
+		text-shadow: 1px 1px 1px black;
+		font-size: 0.8rem;
 	}
 
 	nav {
@@ -240,7 +246,7 @@ nav a:focus {
 =================== */
 
 .home-hero {
-	background-image: url('../img/sea_2.JPG');
+	background-image: url('../img/Office.jpeg');
 	background-size: cover;
 	background-position: center;
 	padding: 10em 0;
@@ -260,7 +266,7 @@ nav a:focus {
 
 .home-about-textbox {
 	background-color: #232323;
-	padding: 4em;
+	padding: 5em;
 	width: 100vw;
 	margin-left: -2.5%;
 	outline: 2px solid #06a74a;
@@ -359,7 +365,7 @@ nav a:focus {
 	margin: 1em;
 }
 
-@media (min-width: 37rem) {
+@media (min-width: 60rem) {
 	.port-item {
 		width: 50%;
 		float: left;
