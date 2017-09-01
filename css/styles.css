@@ -408,7 +408,7 @@ footer {
 	padding: 5em 0;
 }
 
-li a {
+a.footer {
 	text-decoration: none;
 	color: white;
 }
