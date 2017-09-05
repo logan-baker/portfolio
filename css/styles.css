@@ -90,8 +90,11 @@ footer::after {
 h1 {
 	font-weight: 300;
 	font-size: 1.7rem;
-	margin-top: 2em;
 	text-shadow: 2px 2px 2px black;
+}
+
+h1.projects{
+	margin-top: 2em;
 }
 
 h1.title.title-cta{
@@ -328,7 +331,7 @@ nav a:focus {
 	}
 
 	.home-about-textbox h1 {
-		top: .75em;
+		top: -0.25em;
 		left: 6rem;
 		transform: translateX(0);
 	}
