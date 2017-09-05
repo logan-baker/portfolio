@@ -90,7 +90,7 @@ footer::after {
 h1 {
 	font-weight: 300;
 	font-size: 1.7rem;
-	margin-top: 0;
+	margin-top: 2em;
 	text-shadow: 2px 2px 2px black;
 }
 
@@ -423,7 +423,7 @@ nav a:focus {
 }
 
 .modalDialog > div {
-	width: 400px;
+	width: 21rem;
 	position: relative;
 	margin: 10% auto;
 	padding: 5px 20px 13px 20px;
@@ -433,7 +433,6 @@ nav a:focus {
 	background: -webkit-linear-gradient(#fff, #999);
 	background: -o-linear-gradient(#fff, #999);*/
 }
-
 .close {
 	background: #606061;
 	color: #FFFFFF;
