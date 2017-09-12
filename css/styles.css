@@ -37,6 +37,9 @@ footer::after {
 	transition: all 0.8s ease;
 }
 
+span.name{
+	color:white;
+}
 /* Column stuff
 =================== */
 
@@ -98,7 +101,8 @@ h1.projects{
 }
 
 h1.title.title-cta{
-text-shadow: none;
+text-shadow: 2px 2px 2px black;
+color:white;
 }
 p {
 	margin-top: 0;
@@ -237,10 +241,9 @@ nav a:focus {
 
 @media (min-width:60rem) {
 	.logo {
-		float: left;
-		color: black;
-		text-shadow: 1px 1px 1px black;
-		font-size: 0.8rem;
+		color: white;
+		text-shadow: 2px 2px 2px black;
+		font-size: 4rem;
 	}
 
 	nav {
