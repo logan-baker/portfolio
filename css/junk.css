@@ -1,0 +1,12 @@
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.wrapped-item {
+    flex: auto;
+}
+
+p.center {
+    text-align: center;
+}

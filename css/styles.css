@@ -173,7 +173,8 @@ p:last-of-type {
 }
 
 .button-accent {
-	color: #06a74a;
+	background: #00000054;
+	color: #ffffff;
 	border-color: #06a74a;
 }
 
